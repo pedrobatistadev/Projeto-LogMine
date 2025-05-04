@@ -86,10 +86,10 @@ main {
 }
 
 main > div {
-    max-width: 240px;
+    max-width: 260px;
     background-color: rgba(0, 0, 0, 0.534);
     margin: auto;
-    padding: 17px;
+    padding: 20px;
     border-radius: 10px;
 
 }
@@ -107,7 +107,7 @@ input {
     background-color: rgba(39, 39, 39, 0.863);
     border: none;
     padding: 8px;
-    width: 220px;
+    width: 235px;
     margin-top: 2vh;
 }
 
@@ -122,7 +122,7 @@ input {
 }
 
 main > div > button {
-    padding: 9px 55px;
+    padding: 9px 65px;
     background-color: #269E6D;
     color: white;
     font-size: 1.1em;
@@ -157,7 +157,7 @@ footer {
     font-size: 0.9em;
     font-weight: bold;
     max-width: 910px;
-    margin: 3vh auto;
+    margin: 2vh auto;
 }
 
 div.pai {
