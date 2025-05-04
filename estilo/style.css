@@ -11,8 +11,10 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 100vh;
-    box-shadow: inset -200px 200px 200px black;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset -150px 150px 200px black;
+    overflow-x: hidden;
 }
 
 /*---------------------------------------------------*/
@@ -39,14 +41,15 @@ header > div {
 
 
 nav {
-    margin: 5vh auto;
-    width: 540px;
+    margin: 3vh auto;
+    width: 37vw;
 }
 
 
 nav > div {
     display: flex;
-    gap: 35px;
+    flex-flow: row wrap;
+    gap: 1.5vw;
 }
 
 nav > div > a {
@@ -55,8 +58,13 @@ nav > div > a {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8em;
-    padding: 8px;
+    padding: 10px;
     border-radius: 5px;
+}
+
+nav > div > a:hover {
+    background-color: rgba(0, 0, 0, 0.404);
+    transition-duration: 0.3s;
 }
 
 #dif_1 {
@@ -65,9 +73,78 @@ nav > div > a {
     padding: 8px 30px;
 }
 
+#dif_1:hover {
+    background-color: rgb(180, 179, 179);
+}
+
 /*--------------------------------------------------*/
 
 main {
     color: white;
-    background-color: rgba(0, 0, 0, 0.61);
+    margin-top: 4vh;
+}
+
+main > div {
+    max-width: 260px;
+    background-color: rgba(0, 0, 0, 0.534);
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+main > div > img {
+    display: block;
+    margin: auto;
+}
+
+main > div > p {
+    margin-top: 2vh;
+}
+
+input {
+    background-color: rgba(39, 39, 39, 0.863);
+    border: none;
+    padding: 8px;
+    width: 250px;
+    margin-top: 2vh;
+}
+
+#dif_2 {
+    font-size: 0.8em;
+    margin-top: 2vh;
+}
+
+#dif_2:hover {
+    cursor: pointer;
+    color: rgb(204, 201, 201);
+}
+
+main > div > button {
+    padding: 9px 65px;
+    background-color: #269E6D;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 7px;
+    border-width: 3px;
+    border-color: rgba(0, 0, 0, 0.473);
+    border-bottom-color: white;
+    margin-top: 2vh;
+}
+
+main > div > button:hover {
+    cursor: pointer;
+    background-color: #1a6b4b;
+}
+
+#dif_3 {
+    color: lightgreen;
+    font-size: 0.8em;
+    width: 120px;
+    margin: 3vh auto;
+}
+
+#dif_3:hover {
+    cursor: pointer;
+    color: rgb(99, 167, 99);
 }
