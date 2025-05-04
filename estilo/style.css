@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(../imagens/mine-fundo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: inset -200px 200px 200px black;
+}
+
+/*---------------------------------------------------*/
+
+header {
+    width: 90px;
+    margin: auto;
+}
+
+header > div > p {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header > div {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+/*--------------------------------------------------*/
+
+
+nav {
+    margin: 5vh auto;
+    width: 540px;
+}
+
+
+nav > div {
+    display: flex;
+    gap: 35px;
+}
+
+nav > div > a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#dif_1 {
+    background-color: white;
+    color: green;
+    padding: 8px 30px;
+}
+
+/*--------------------------------------------------*/
+
+main {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.61);
+}
