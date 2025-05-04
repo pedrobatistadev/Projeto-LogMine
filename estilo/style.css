@@ -85,7 +85,7 @@ main {
 }
 
 main > div {
-    max-width: 260px;
+    max-width: 240px;
     background-color: rgba(0, 0, 0, 0.534);
     margin: auto;
     padding: 15px;
@@ -106,7 +106,7 @@ input {
     background-color: rgba(39, 39, 39, 0.863);
     border: none;
     padding: 8px;
-    width: 250px;
+    width: 220px;
     margin-top: 2vh;
 }
 
@@ -121,7 +121,7 @@ input {
 }
 
 main > div > button {
-    padding: 9px 65px;
+    padding: 9px 55px;
     background-color: #269E6D;
     color: white;
     font-size: 1.1em;
