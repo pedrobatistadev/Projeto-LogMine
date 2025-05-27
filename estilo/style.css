@@ -45,7 +45,7 @@ main > div {
 section {
     background-color: rgba(0, 0, 0, 0.712);
     padding: 30px;
-    width: 335px;
+    width: 90vw;
     font-size: 1.1em;
     margin: auto;
     border-radius: 10px;
@@ -64,12 +64,17 @@ div > input {
     color: rgba(255, 255, 255, 0.829);
     padding: 6px;
     background-color: rgba(61, 58, 58, 0.616);
+    width: 85vw;
+}
+
+#ilembrar {
+    width: 15px;
 }
 
 #buton {
     color: white;
     padding: 10px;
-    width: 18.5vw;
+    width: 85vw;
     background-color: #22AE75;
     border-color: white;
     border-radius: 5px;
