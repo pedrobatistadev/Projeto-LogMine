@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: black;
+    color: white;
+    background-image: url(../imagens/mine-fundo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0px 0px 70px 30px black;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+main > div {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+    margin-left: 5vw;
+}
+
+#title {
+    display: inline;
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 30px;
+    width: 90vw;
+    font-size: 1.1em;
+    margin: auto;
+    border-radius: 10px;
+}
+
+section > img {
+    display: block;
+    margin: auto;
+}
+
+section > form {
+    width: 270px;
+    margin: auto;
+}
+
+section > form > div {
+    padding: 7px;
+}
+
+div > input {
+    color: rgba(255, 255, 255, 0.829);
+    padding: 6px;
+    background-color: rgba(61, 58, 58, 0.616);
+}
+
+#buton {
+    color: white;
+    padding: 10px;
+    width: 18.5vw;
+    background-color: #22AE75;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-top: 7vh;
+}
+
+#buton:hover {
+    cursor: pointer;
+}
+
+#forgeted {
+    font-size: 0.8em;
+    color: #269E6D;
+    width: 129px;
+    margin: 7vh auto 0px auto;
+}
+
+#forgeted:hover {
+    cursor: pointer;
+}
+
