@@ -20,6 +20,12 @@ body {
     background-position: center center;
     background-size: cover;
     box-shadow: inset 0px 0px 70px 30px black;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
 
 main {
@@ -95,5 +101,6 @@ div > input {
 
 #forgeted:hover {
     cursor: pointer;
+    color: #3ae4a0;
 }
 
