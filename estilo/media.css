@@ -13,9 +13,6 @@
         width: 53vw;
     }
 
-    nav {
-        display: none;
-    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1380px) {
@@ -57,6 +54,8 @@
     nav > a:hover {
         color: #269E6D;
         background-color: white;
+        transform: scale(1.1);
+        transition-duration: 0.5s;
     }
 
     #link {
@@ -69,7 +68,7 @@
     section {
         width: 28vw;
         padding: 5px;
-        margin: 6vh auto;
+        margin: 8vh auto;
 
     }
 
