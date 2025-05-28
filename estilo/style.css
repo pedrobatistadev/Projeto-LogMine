@@ -19,7 +19,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    box-shadow: inset 0px 0px 70px 30px black;
+    box-shadow: inset 0px 0px 100px 20px black;
 }
 
 main {
@@ -40,6 +40,10 @@ main > div {
     display: inline;
     font-size: 1.4em;
     font-weight: bolder;
+}
+
+nav {
+    display: none;
 }
 
 section {
@@ -96,5 +100,9 @@ div > input {
 #forgeted:hover {
     cursor: pointer;
     color: #3ae4a0;
+}
+
+footer {
+    display: none;
 }
 

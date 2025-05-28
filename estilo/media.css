@@ -2,31 +2,115 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section {
-        width: 50vw;
+        width: 60vw;
     }
 
     div>input {
-        width: 40vw;
+        width: 53vw;
     }
 
     #buton {
-        width: 40vw;
+        width: 53vw;
+    }
+
+    nav {
+        display: none;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1380px) {
     section {
         width: 30vw;
-        padding: 10px;
-        margin: 3vh auto;
+        padding: 5px;
+        margin: 6vh auto;
 
     }
 
     div>input {
-        width: 25vw;
+        width: 27vw;
     }
 
     #buton {
-        width: 25vw;
+        width: 27vw;
     }
+
+}
+
+@media screen and (min-width: 1380px) {
+
+    nav {
+        display: block;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 2vw;
+        justify-content: center;
+    }
+
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        padding: 10px 35px;
+        border-radius: 10px;
+    }
+
+    nav > a:hover {
+        color: #269E6D;
+        background-color: white;
+    }
+
+    #link {
+        color: #269E6D;
+        background-color: white;
+        padding: 10px 35px;
+        border-radius: 10px;
+    }
+
+    section {
+        width: 28vw;
+        padding: 5px;
+        margin: 6vh auto;
+
+    }
+
+    div>input {
+        width: 26vw;
+    }
+
+    #buton {
+        width: 26vw;
+    }
+
+    #forgeted {
+    font-size: 0.8em;
+    color: #269E6D;
+    width: 129px;
+    margin: 7vh auto 2vh auto;
+}
+
+    main>div {
+        justify-content: center;
+    }
+
+    footer {
+        margin-top: 12vh;
+        display: flex;
+        flex-flow: row wrap;
+        gap: 5vw;
+        justify-content: center;
+    }
+
+    footer > div > img {
+        margin: auto;
+        display: block;
+    }
+
+    footer > div > p {
+        margin-top: 1.5vh;
+    }
+
+    body {
+    box-shadow: inset 0px 0px 226px 51px black;
+}
+
 }
